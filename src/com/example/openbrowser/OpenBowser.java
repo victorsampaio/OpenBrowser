@@ -23,9 +23,8 @@ public class OpenBowser extends Activity implements OnClickListener {
 
 	}
 
-	
 	public void onClick(View view) {
-		
+
 		EditText addrUrl = (EditText) findViewById(R.id.edtUrl);
 
 		String addUrl = addrUrl.getText().toString();
